@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Form</title>
+    <style>
+        * {
+            color: black;
+            padding: 0;
+            margin: 0;
+        }
+
+        .box {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            background-color: lightseagreen;
+            display: flex;
+            flex-direction: column;
+            border: 3px solid grey;
+            width: 50vh;
+            height: 70vh;
+            border-radius: 10px;
+            justify-content: center;
+            align-items: center;
+
+        }
+        
+        .item {
+            margin: 10px;
+            padding: 5px;
+            font-size: 20px;
+        }
+        
+        input {
+            display: block;
+            border-radius: 3px;
+            height: 20px;
+        }
+        
+        #btn {
+            margin: 20px 60px;
+            cursor: pointer;
+            text-align: center;
+            padding: 3px;
+            border-radius: 5px;
+            border: 3px solid grey;
+            background-color: green;
+            color: black;
+        }
+
+        h4 {
+            font-weight: bold;
+            text-align: center;
+            font-size: 30px;
+            text-decoration: underline;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="box">
+        <div class="container">
+            <h4>FILL IN YOUR DETAILS</h4>
+            <form action="quiz.html" class="form">
+                <div class="item">Name:
+                    <input type="text" , placeholder="Enter your name here">
+                </div>
+                <div class="item">Email:
+                    <input type="email" name="" id="" placeholder="Enter your email here">
+                </div>
+                <div class="item">Mobile Number:
+                    <input type="text" name="" id="" placeholder="Enter your mobile number here">
+                </div>
+                <div class="item">Username:
+                    <input type="text" placeholder="Enter your username">
+                </div>
+                <div class="item">Password:
+                    <input type="password" name="" id="" placeholder="Enter your password here">
+                </div>
+                <p> <button id="btn">SUBMIT</button></p>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
